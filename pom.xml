@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>project-app</name>
-  <url>https://github.com/sonudhakad/jenkins-cicd-java-maven-demo</url>
+  <url>https://github.com/sonudhakad/kubernetes-aws-eks-devops-project-main</url>
   <build>
     <finalName>project-app</finalName>
     <sourceDirectory>src</sourceDirectory>
