@@ -2,12 +2,12 @@ pipeline {
     agent { label 'project-jenkins-slave' }
     environment {
         TAG_VERSION = '4.0.0'
-        REGISTRY_PATH = '277565952452.dkr.ecr.us-east-1.amazonaws.com'
-        ECR_REPO_FULL_NAME = '277565952452.dkr.ecr.us-east-1.amazonaws.com/project-ecr-repo'
+        REGISTRY_PATH = '975050353049.dkr.ecr.ap-south-1.amazonaws.co'
+        ECR_REPO_FULL_NAME = '975050353049.dkr.ecr.ap-south-1.amazonaws.com/project-ecr-repo'
         WAR_FULL_PATH = '/home/ec2-user/workspace/project-app/target/project-app.war'
         TMP_IMAGE_NAME = 'project-app'
         ECR_REPO_NAME = 'project-ecr-repo'
-        REGION = 'us-east-1'
+        REGION = 'ap-south-1'
     }
     stages {
           stage("Maven Build") {
